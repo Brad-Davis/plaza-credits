@@ -155,19 +155,12 @@ a:hover { color: var(--gold); }
 /* ── People ── */
 .people {
   list-style: none;
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
   width: 100%;
   margin: 0 auto;
-  align-items: start;
-}
-
-@media (min-width: 720px) {
-  .people {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 48px 28px;
-  }
 }
 
 .people > li {
@@ -182,7 +175,7 @@ a:hover { color: var(--gold); }
   flex-direction: column;
   align-items: center;
   width: 100%;
-  max-width: 200px;
+  max-width: 360px;
   text-decoration: none;
   color: inherit;
 }
