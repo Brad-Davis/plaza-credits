@@ -7,7 +7,7 @@
 window.PLAZA_CREDITS = [
   {
     name: 'Andrew Schneider',
-    role: 'Creator and Director / Co-Composer and Co-Sound Designer',
+    role: 'Creator and Director / Co-Composer and\nCo-Sound Designer',
     photo: 'photos/andrew-schneider.jpg',
   },
   {

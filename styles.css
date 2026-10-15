@@ -225,11 +225,13 @@ a.person .person-name {
 
 .person-role {
   margin-top: 4px;
+  max-width: 22ch;
   font-size: 13px;
   line-height: 18px;
   color: var(--gold-ui);
   opacity: 0.75;
   text-align: center;
+  white-space: pre-line;
 }
 
 footer {
